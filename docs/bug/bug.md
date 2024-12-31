@@ -1,12 +1,12 @@
 [← Voltar](../README.md)
 
-# :bookmark_tabs: Sumário
+# 📑 Sumário
 
 - [:cloud: Heroku WEB](#-bug)
 
 ---
 
-## :beetle: Bug
+## 🪲 Bug
 
 Tenho um problema para buildar o projeto do **Flutter**. Seguem os passos necessários:
 
