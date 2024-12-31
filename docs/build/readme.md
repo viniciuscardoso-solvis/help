@@ -1,17 +1,17 @@
 [← Voltar](../README.md)
 
-# :bookmark_tabs: Sumário
+# 📑 Sumário
 
-- [:cloud: Heroku WEB](#-heroku)
-- [:package: Build APK](#-Build-APK)
+- [☁️ Heroku WEB](#-heroku)
+- [📦 Build APK](#-Build-APK)
 
 ---
 
-## :cloud: Heroku
+## ☁️ Heroku
 
 No projeto de **reserva de cardápio**, utilizamos o Heroku para hospedar o sistema web. Aqui está um passo a passo para fazer o **build**:
 
-### :hammer_and_wrench: Passo a passo para build web
+### 🛠️  Passo a passo para build web
 
 1. **Rodar o comando** para gerar o build:
    ```sh
@@ -42,7 +42,7 @@ No projeto de **reserva de cardápio**, utilizamos o Heroku para hospedar o sist
 
 ```
 
-## :package: Build APK
+## 📦 Build APK
 
 Para fazer o build do APK, execute o seguinte comando:
 
