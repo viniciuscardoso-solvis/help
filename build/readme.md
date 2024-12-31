@@ -1,54 +1,49 @@
-## Sumário
+# :bookmark_tabs: Sumário
 
-- [Heroku WEB](#-Heroku)
+- [:cloud: Heroku WEB](#-heroku)
+- [:package: Build APK](#-build-apk)
 
-## Heroku
+---
 
-No projeto de reserva de cardápio, utilizamos o heroku para hospedar sistema web. Aqui tem um passo a passo a passo para fazer o build.
+## :cloud: Heroku
 
-Para fazer o build web
+No projeto de **reserva de cardápio**, utilizamos o Heroku para hospedar o sistema web. Aqui está um passo a passo para fazer o **build**:
 
-```sh
-flutter build web
-```
+### :hammer_and_wrench: Passo a passo para build web
 
-depois de fazer o build temos que ir para a pasta ` /build/web`
-
-Na pasta descrita anteriormente, verificar se existe um repositório GIT:
-
-```sh
-git init
-```
-
-Seria legal fazer login no heroku e apontar para o repositório:
+1. **Rodar o comando** para gerar o build:
+   ```sh
+   flutter build web
+   ```
+2. Navegar para a pasta `/build/web` e verificar se existe um repositório GIT:
 
 ```sh
-heroku login
-
-&
-
-heroku git:remote -a meal-reservation
+   git init
 ```
 
-Agora so fazer o processo normal de push
+3. Fazer login no Heroku e apontar para o repositório:
+
+```sh
+    heroku login
+    heroku git:remote -a meal-reservation
+```
+
+4. Executar o processo de push:
 
 ```sh
     git add .
     git commit -m "update"
-
     git push heroku master
 
-    ou
-
+    # Caso precise forçar:
     git push heroku master --force
+
 ```
 
-##
+## :package: Build APK
 
-## Build APK
-
-Para fazer o build do APK, temos que rodar o seguinte comando:
+Para fazer o build do APK, execute o seguinte comando:
 
 ```sh
-    flutter build apk
+flutter build apk
 ```
